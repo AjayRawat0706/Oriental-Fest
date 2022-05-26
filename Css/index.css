@@ -1,0 +1,126 @@
+
+ body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+   
+  }
+ 
+header {
+    color: white;
+  }
+  .left {
+    position: absolute;
+    left: 25px;
+    top: 0px;
+    /* border: 2px solid red; */
+    display: inline-block;
+  }
+  .mid {
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: 18px auto;
+  }
+  .right {
+    position: absolute;
+    right: 45px;
+    top: 18px;
+    /* border: 2px solid red; */
+    display: inline-block;
+  }
+  .navbar {
+    display: inline-block;
+    padding: 0px 0px 0px 33px;
+    margin: 0px;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin: 0px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar li a:hover{
+      color: gray;
+      text-decoration: underline;
+  }
+  .restname {
+    width: 30%;
+    margin: 80px auto;
+  }
+  .restname h1 {
+    font-size: 50px;
+    margin: 0px 0px 0px 20px;
+  }
+  .restname p{
+      font-size: 20px;
+      margin: 0px 0px 0px 150px;
+  }
+  .left img{
+      width: 120px;
+      height:110px;
+      filter: invert(100%);
+  }
+  .btn{
+      border-radius: 35px;
+      padding: 5px 13px;
+      background-color: coral;
+      
+  }
+  .btn a{
+      color: black;
+      font-size: 17px;
+  }
+ 
+    .footercontainer{
+        background-color: rgb(237, 195, 195);
+        color: black;
+        margin: 0%;
+        /* border: 3px solid white; */
+        height: 10%;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+    }
+    .Address{
+      /* border: 3px solid blue; */
+      display: inline-block;
+      position: absolute;
+      top: 0px;
+      padding: 0px;
+      margin: 0px;
+       width: 400px;
+  
+    }
+    .Address h4{
+      text-align: left;
+      font-style: italic;
+      font-size: 19px;
+      margin: 5px 5px 0px 17px;
+    }
+    .Address p{
+      font-size: 18px;
+      padding: 0px;
+      margin: 0px 14px;
+  
+    }
+    .socialMedia{
+      width: 400px;
+      margin: 0px 0px 0px 450px;
+    }
+    .socialMedia h4{
+      text-align: left;
+      font-style: italic;
+      font-size: 19px;
+      margin: 0px
+    }
+    
+    .socialMedia img{
+      margin: 0px;
+      width: 50px;
+      height: 40px;
+    }
+    
